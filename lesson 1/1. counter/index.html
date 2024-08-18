@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .counter-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #counter {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        #milkBrought {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #ffffff;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        button:active {
+            background-color: #1c5d8b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="counter-container">
+        <div>Change</div>
+        
+        <div id="counter">0</div>
+        <div>Milk brought</div>
+        <div id="milkBrought">0</div>
+        <input type="text" id="moneyInput" placeholder="Total money">
+        <input type="text" id="milkInput" placeholder="Milk cost">
+        <!-- <button onclick="increment()">Increase</button>
+        <button onclick="decrement()">Decrease</button>
+        <button onclick="reset()">Reset</button> -->
+        <button onclick="buyMilkButtonPressed()">Buy Milk</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

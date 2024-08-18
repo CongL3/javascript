@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Interactive Lessons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .lesson {
+            margin-bottom: 40px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #e7f4e7;
+            border-radius: 5px;
+        }
+        .instructions {
+            background-color: #e7f7ff;
+            padding: 10px;
+            border: 1px solid #99d1ff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Interactive Lessons - Fill in the Gaps</h1>
+    
+    <!-- Lesson 1: Variables and Data Types -->
+    <div class="lesson" id="lesson1">
+        <h2>Lesson 1: Variables and Data Types</h2>
+        <div class="instructions">
+            <p>In this exercise, you need to declare and initialize some variables. Here's what you need to do:</p>
+            <ul>
+                <li>Declare an integer variable named <code>int</code> and initialize it to 25.</li>
+                <li>Declare a floating-point variable named <code>double</code> and initialize it to 22.5.</li>
+                <li>Declare a character variable named <code>char</code> and initialize it to 'J'.</li>
+                <li>Declare a string variable named <code>string</code> and initialize it to "Hello".</li>
+            </ul>
+            <p>Fill in the blanks in the code below to make it work as described.</p>
+        </div>
+
+        <button onclick="runLesson1()">Run Code</button>
+        <div class="output" id="output1"></div>
+    </div>
+
+    <!-- Lesson 2: Conditional Statements -->
+    <div class="lesson" id="lesson2">
+        <h2>Lesson 2: Conditional Statements</h2>
+        <div class="instructions">
+            <p>In this exercise, you need to complete the function to determine the grade based on a student's score.</p>
+            <p>Here's what you need to do:</p>
+            <ul>
+                <li>If the score is 90 or higher, the grade should be 'A'.</li>
+                <li>If the score is between 80 and 89, the grade should be 'B'.</li>
+                <li>If the score is between 70 and 79, the grade should be 'C'.</li>
+                <li>If the score is between 60 and 69, the grade should be 'D'.</li>
+                <li>If the score is below 60, the grade should be 'F'.</li>
+            </ul>
+            <p>Fill in the blanks in the code below to make it work as described.</p>
+        </div>
+
+        <button onclick="runLesson2()">Run Code</button>
+        <div class="output" id="output2"></div>
+    </div>
+
+    <!-- Lesson 3: Temperature Classification -->
+    <div class="lesson" id="lesson3">
+        <h2>Lesson 3: Temperature Classification</h2>
+        <div class="instructions">
+            <p>In this exercise, you need to classify a temperature in Celsius based on the following categories:</p>
+            <ul>
+                <li>Below 0: Freezing</li>
+                <li>0 to 10: Cold</li>
+                <li>11 to 20: Moderate</li>
+                <li>21 to 30: Warm</li>
+                <li>Above 30: Hot</li>
+            </ul>
+            <p>Fill in the blanks in the code below to make it work as described.</p>
+        </div>
+
+        <button onclick="runLesson3()">Run Code</button>
+        <div class="output" id="output3"></div>
+    </div>
+
+    <!-- Lesson 4: Day of the Week -->
+    <div class="lesson" id="lesson4">
+        <h2>Lesson 4: Day of the Week</h2>
+        <div class="instructions">
+            <p>In this exercise, you need to write code that converts a number (1-7) into the corresponding day of the week:</p>
+            <ul>
+                <li>1: Monday</li>
+                <li>2: Tuesday</li>
+                <li>3: Wednesday</li>
+                <li>4: Thursday</li>
+                <li>5: Friday</li>
+                <li>6: Saturday</li>
+                <li>7: Sunday</li>
+            </ul>
+            <p>Fill in the blanks in the code below to make it work as described.</p>
+        </div>
+
+        <button onclick="runLesson4()">Run Code</button>
+        <div class="output" id="output4"></div>
+    </div>
+
+    <!-- Lesson 5: Loops -->
+    <div class="lesson" id="lesson5">
+        <h2>Lesson 5: Loops</h2>
+        <div class="instructions">
+            <p>In this exercise, you need to complete the function to print a pattern using loops.</p>
+            <p>Here's what you need to do:</p>
+            <ul>
+                <li>Use a loop to print the numbers 1 through 5, each on a new line.</li>
+                <li>Fill in the blanks in the code below to make it work as described.</li>
+            </ul>
+        </div>
+
+        <button onclick="runLesson5()">Run Code</button>
+        <div class="output" id="output5"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
